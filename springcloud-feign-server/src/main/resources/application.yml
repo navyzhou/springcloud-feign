@@ -1,0 +1,11 @@
+server:
+   port: 8888
+   
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://navy:123456@127.0.0.1:6868/eureka
+         
+spring:
+   application:
+      name: feign-server
